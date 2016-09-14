@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'JazzyPodsXC8_Example' do
+  pod 'JazzyPodsXC8', :path => '../'
+
+  target 'JazzyPodsXC8_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
