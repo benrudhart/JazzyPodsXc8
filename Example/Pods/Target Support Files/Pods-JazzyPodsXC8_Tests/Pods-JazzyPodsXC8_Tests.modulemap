@@ -1,6 +1,0 @@
-framework module Pods_JazzyPodsXC8_Tests {
-  umbrella header "Pods-JazzyPodsXC8_Tests-umbrella.h"
-
-  export *
-  module * { export * }
-}
