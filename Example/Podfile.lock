@@ -1,0 +1,16 @@
+PODS:
+  - JazzyPodsXC8 (0.1.0)
+
+DEPENDENCIES:
+  - JazzyPodsXC8 (from `../`)
+
+EXTERNAL SOURCES:
+  JazzyPodsXC8:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  JazzyPodsXC8: 43eba9614d2446c2bc1ebdb89029dde163649202
+
+PODFILE CHECKSUM: 19563731e53a29f68cecd87543b2b0e18374e489
+
+COCOAPODS: 1.1.0.rc.2
