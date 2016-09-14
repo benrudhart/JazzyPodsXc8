@@ -1,29 +1,16 @@
 # JazzyPodsXC8
 
-[![CI Status](http://img.shields.io/travis/Ben Rudhart/JazzyPodsXC8.svg?style=flat)](https://travis-ci.org/Ben Rudhart/JazzyPodsXC8)
-[![Version](https://img.shields.io/cocoapods/v/JazzyPodsXC8.svg?style=flat)](http://cocoapods.org/pods/JazzyPodsXC8)
-[![License](https://img.shields.io/cocoapods/l/JazzyPodsXC8.svg?style=flat)](http://cocoapods.org/pods/JazzyPodsXC8)
-[![Platform](https://img.shields.io/cocoapods/p/JazzyPodsXC8.svg?style=flat)](http://cocoapods.org/pods/JazzyPodsXC8)
+This is an example project.
+Currently Jazzy cannot build documentations for a lib created with CocoaPods using Swift 3.0 in Xcode 8.
 
-## Example
-
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
-
-## Requirements
-
-## Installation
-
-JazzyPodsXC8 is available through [CocoaPods](http://cocoapods.org). To install
-it, simply add the following line to your Podfile:
-
-```ruby
-pod "JazzyPodsXC8"
+It's throwing this error:
+```
+Running xcodebuild
+Could not parse compiler arguments from `xcodebuild` output.
+Please confirm that `xcodebuild` is building a Swift module.
 ```
 
-## Author
-
-Ben Rudhart, hi@benrudhart.com
-
-## License
-
-JazzyPodsXC8 is available under the MIT license. See the LICENSE file for more info.
+- It contains a fresh cocoapod lib created with `pod lib create`
+- cocoapods version: `1.1.0.rc.2`
+- Xcode version: `8.0 (8A218a)`
+- Jazzy version: `0.7.1`
